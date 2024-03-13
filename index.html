@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
     <title>Login HTML CSS</title>
 </head>
 <body>
@@ -12,9 +14,11 @@
             <h1>Login</h1>
             <div class="input-box">
                 <input type="text" placeholder="Username" required>
+                <i class='bx bx-user'></i>
             </div>
             <div class="input-box">
                 <input type="password" placeholder="Password" required>
+                <i class='bx bxs-lock-alt' ></i>
             </div>
             <div class="remember-forgot">
                 <label for="checkbox">
@@ -24,6 +28,11 @@
 
                 </label>
                 <a href="#">forgot password</a>
+            </div>
+            <button type="submit">Login</button>
+            <div class="register-link">
+                <p>Don't have account?</p>
+                <a href="">Register</a>
             </div>
         </form>
 
